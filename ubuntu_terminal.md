@@ -1,0 +1,14 @@
+- ls : list
+- ls / : list the folders in system
+- ls /[name_folder] : move to [name_folder] from [name_folder]
+- ls -l : list file and folders details 
+- ls -l / : list the folders in system details
+- ll : list file and folders details [folder or file hide]
+- ll / : list the folders in system details [folder hide]
+- clear : clear
+- SSH ubuntu access
+- cd ~/.ssh
+- ssh-keygen -t rsa -b 4096 -C "vuducthang.khmt@gmail.com"
+- eval $(ssh-agent -s)
+- ssh-add
+
