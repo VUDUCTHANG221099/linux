@@ -12,6 +12,10 @@
 - cd / : folder root
 - clear : clear
 - pwd: located currenty
+- touch [name_file] : create file
+- cat [name_file] : show content in file
+- nano : Write content and Create file
+- nano [name_file] : Write content in file exists or Create file
 - SSH ubuntu access
 - cd ~/.ssh
 - ssh-keygen -t rsa -b 4096 -C "email or gitHub or gitLab,.."
