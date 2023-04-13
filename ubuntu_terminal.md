@@ -1,14 +1,21 @@
 - ls : list
+- ls [name_folder]: list
 - ls / : list the folders in system
-- ls /[name_folder] : move to [name_folder] from [name_folder]
+- ls /[name_folder] : list to [name_folder] from [name_folder] in system
 - ls -l : list file and folders details 
 - ls -l / : list the folders in system details
+- ls -l /[name_folder] : lisst to [name_folder] from [name_folder]
 - ll : list file and folders details [folder or file hide]
 - ll / : list the folders in system details [folder hide]
+- cd [name_folder] : Move to [name_folder] from [name_folder]
+- cd ~ : folder root 
+- cd / : folder root
 - clear : clear
+- pwd: located currenty
 - SSH ubuntu access
 - cd ~/.ssh
-- ssh-keygen -t rsa -b 4096 -C "vuducthang.khmt@gmail.com"
+- ssh-keygen -t rsa -b 4096 -C "email or gitHub or gitLab,.."
 - eval $(ssh-agent -s)
 - ssh-add
-
+- Open https://github.com/settings/keys
+- Select New SSH Key
